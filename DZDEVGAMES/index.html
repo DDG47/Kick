@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DZ DEV GAMES</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="src/Styles_Pages/Home.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/Styles_Pages/help.css" >
+        <link rel="icon" href="src/DDG.png">
+    </head>
+    
+    
+    <body>
+        <!--------------- MENU HELP  -------------------------->
+        <div class="help" id="helpd_">
+            <div class="ui_cl">
+                <div class="header">
+                    <p class="tit-">مساعدة</p><p onclick="SetDis('helpd_', 'none');" class="Xcross">X</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--------------- Head   -------------------------->
+
+        <div class="Head">
+            
+            <p class="tit">DDG</p>
+            <ul class="menu-bar" id="sidemenu">
+                <p>قائمة</p>
+                <a id="yt-targ" class="a_" target="_blank"><li>قناتي</li></a>
+                <a  onclick="setscrool(425)"><li>جديد</li></a>
+                <a href="Pages/Start_Dev.html"><li>ابدا تطوير العاب</li></a>
+                <li onclick="SetDis('helpd_','block')">مساعدة</li>
+                <li onclick="SetMove('sidemenu', '-200px', '0');SetDis('but-bar','block');" id="backbut">رجوع</li>
+            </ul>
+            <a onclick="SetMove('sidemenu', '0px', '0'); SetDis('but-bar','none');"><img id="but-bar" src="src/LT.png" class="menu_icon"/></a>
+        </div>
+
+                 <!--------------- MENU Content  -------------------------->
+        <div class="content">
+            <p class="titp"><span>مرحبا </span>بك<br> في <span>موقعنا</span></p>
+            <div class="A_side" id="ASD">
+                <p class="tit_side">اختصارات رائعة</p>
+                <div class="slot"><img id="m1"><a id="a_h_1" target="_blank"><p id="p1"></p></a></div>
+                <div class="slot"><img id="m2"><a id="a_h_2" target="_blank"><p id="p2"></p></a></div>
+                <div class="slot"><img id="m3"><a id="a_h_3" target="_blank"><p id="p3"></p></a></div>
+                <div class="slot"><img id="m4"><a id="a_h_4" target="_blank"><p id="p4"></p></a></div>
+            </div>
+            <div class="Topic">
+                <p class="tit_side">!جديد</p>
+                <p id="helo" class="hit"></p>
+                <div class="st01">
+                    <p class="ptxt" id="txt"></p>
+                    <div class="slot_cover"><img id="cover"></div>
+                    <p id="infj" class="inf_">000000000</p>
+                    <a target="_blank" id="ado"><button class="but_ins">ثتبيت</button></a>
+                </div>
+                <div class="List">
+                    <p class="tit_list">مقترح من اجلك</p>
+                    <div class="Slist"><img src="src/Game01.jpg"><p onclick="getLink('https://www.youtube.com/watch?v=W1MlzIvcvsQ', 'none')">لعبتي قتال طائرات للاندرويد</p></div>
+                    <div class="Slist"><img src="src/PAN01.jpg"><p onclick="getLink('https://www.youtube.com/watch?v=rFlWn_93Oww', 'none')">كيفية عمل الانتقال بين مراحل في يونتي</p></div>
+                    <div class="Slist"><img src="src/PAN02.jpg"><p onclick="getLink('https://www.youtube.com/watch?v=e6zNBSBcSg0', 'none')">تصميم شجرة  في بلندر بطريقة بسيطة جدا </p></div>
+                </div>
+                
+            </div>
+        </div>
+
+   
+                <!--------------- MENU Footer  -------------------------->
+        <div class="Footer">
+            <p class="titre-">©copyright - 2020 - 2021</p>
+            <p class="con">for Contact:</p>
+            <div class="icon_Media">
+                 <a id="yt-targ-01" class="a_" target="_blank"><img src="src/YT.png" class="YT-IMG"></a>
+                 <a id="fb-targ" class="a_" target="_blank"><img src="src/LK.png" class="YT-IMG"></a>
+            </div>
+        </div>
+    </body>
+    <script src="src/control.js"></script>
+</html>

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    .Menu_{
+        width: 100%;
+        padding-left: 0px;padding-right: 0px;
+        height: 2100px;
+    }
+
+    .slots_{
+        display: block;
+    }
+    .slot{
+        width: calc(100% - 60px);
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}

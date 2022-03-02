@@ -1,0 +1,121 @@
+@media only screen and (max-width: 600px) {
+    .header ul{
+        position: fixed;
+        display: block;
+        height: 100vh;
+        margin-top: 0px;
+        background: rgba(256,256,256,0.8);
+        width: 100%;
+        margin-left: 100%;
+        z-index: 1;
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    #back_b{
+        display: block;
+    }
+    .header li{ 
+        display: block;
+        margin-left: 0px;
+        width: 70%;
+        margin-left: 15%;
+        font-size: 20px;
+        border: 2px solid black;
+        font-weight: bold;
+        height: 25px;
+        padding-bottom: 6.25px;
+        padding-top: 6.25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    h5{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 5px;
+        color: white;
+        background: black;
+        padding-bottom: 5px;
+    }
+    .listgdma{
+        width: 100%;
+        margin-left: 0;
+        padding-top: 25px;
+        height: calc(330px * 3 + 50px);
+    }
+    .Slotd{
+        float: none;
+        width: 70%;
+        height: 330px;
+        margin-bottom: 40px;
+        margin-left: 15%;
+    }
+    .d03{
+        height:1200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h2{
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    h3{
+        padding-left: 30px;
+        font-size: 45px;
+    }
+    .btn-che{
+        margin-left: 30px;
+    }
+    .btn-che:hover{
+        transition: none;
+    }
+    .so {
+        width: 30%;
+        margin-left: 1.5%;
+        height: 100%;
+        margin-top: 0px;
+    }
+    .std_{
+        margin-left: 10px;
+        z-index: 0;
+    }
+    .listwork{
+        padding-top: 5px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tt{
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 5px;
+    }
+    h4{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #icon_M{
+        display: block;
+    }
+    .d04{
+        height: 600px;
+    }
+    .cook{
+        height: 420px;
+        width: calc(100% - 50px);
+        margin-left: 25px;
+        display: block;
+        margin-top: 0px;
+    }
+    .c1{
+        height: calc(100% / 2 );
+        width: 100%;
+        margin-left: 0px;
+    }
+    .c2{
+        height: calc(100% / 2 - 30px);;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
